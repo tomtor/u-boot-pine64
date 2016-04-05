@@ -41,6 +41,10 @@
 #define UBOOT_VERSION			"3.0.0"
 #define UBOOT_PLATFORM		    "1.0.0"
 
+// CONFIG_API s needed for FreeBSD ubldr:
+#define CONFIG_API
+#define CONFIG_SYS_MMC_MAX_DEVICE 4
+
 #define CONFIG_STORAGE_MEDIA_NAND
 #define CONFIG_STORAGE_MEDIA_MMC
 

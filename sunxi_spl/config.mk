@@ -4,7 +4,8 @@
 sinclude $(OBJTREE)/include/autoconf.mk
 
 #CROSS_COMPILE := $(TOPDIR)/../toolchain/gcc-arm/bin/arm-linux-gnueabihf-
-CROSS_COMPILE := $(TOPDIR)/../gcc-linaro/bin/arm-linux-gnueabi-
+#CROSS_COMPILE := $(TOPDIR)/../gcc-linaro/bin/arm-linux-gnueabi-
+CROSS_COMPILE := arm-linux-gnueabihf-
 
 AS		= $(CROSS_COMPILE)as
 LD		= $(CROSS_COMPILE)ld
