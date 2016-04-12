@@ -353,7 +353,7 @@
 	"initrd_filename=initrd.img\0" \
 	"bootenv_filename=uEnv.txt\0" \
 	"load_bootenv=" \
-		"fatload mmc 0:1 ${load_addr} ${bootenv_filename}\0" \
+		"fatload mmc 0:2 ${load_addr} ${bootenv_filename}\0" \
 	"import_bootenv=" \
 		"env import -t ${load_addr} ${filesize}\0" \
 	"load_dtb=" \
